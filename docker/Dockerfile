@@ -1,6 +1,6 @@
 FROM java:openjdk-8-jdk
 
-ENV spark_ver 2.1.0
+ENV spark_ver 1.6.3
 
 # Get Spark from US Apache mirror.
 RUN mkdir -p /opt && \

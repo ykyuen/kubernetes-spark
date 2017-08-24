@@ -1,0 +1,8 @@
+version: '2'
+services:
+  pio-event-server:
+    build: .
+    image: k8s-spark:dev
+    expose:
+      - "7070"
+
